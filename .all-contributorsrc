@@ -1,5 +1,22 @@
 {
   "files": [
     "README"
-  ]
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "MarieStLaurent",
+      "name": "MarieStLaurent",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9339621?v=4",
+      "profile": "https://github.com/MarieStLaurent",
+      "contributions": [
+        "data",
+        "doc"
+      ]
+    }
+  ],
+  "projectName": "anat.freesurfer",
+  "projectOwner": "courtois-neuromod"
 }
