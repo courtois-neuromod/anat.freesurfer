@@ -314,7 +314,13 @@ E.g.,
 FFA_path = f'{floc_roi_path}/fLoc_T1w_FFA.nii.gz'
 FFA_arr = np.swapaxes(nib.load(FFA_path).get_fdata(), 0, -1)
 FFA_arr[FFA_arr <= 0] = np.nan
-FFA_vol = cortex.Volume(FFA_arr, f'sub-{s}', 'align_auto', vmin=np.nanmin(FFA_arr), vmax=np.nanmax(FFA_arr))
+FFA_vol = cortex.Volume(
+    FFA_arr,
+    f'sub-{s}',
+    'align_auto',
+    vmin=np.nanmin(FFA_arr),
+    vmax=np.nanmax(FFA_arr),
+)
 
 cortex.add_roi(
     FFA_vol,
@@ -361,7 +367,14 @@ import matplotlib.pyplot as plt
 Follow the same steps as in Step 6 to transform your volume into surface.
 This time, drawn ROIs should be visible.
 '''
-surf_vol = cortex.Volume(vol_arr, f'sub-{s}', 'align_auto', vmin=min_val, vmax=max_val, cmap=cmap)
+surf_vol = cortex.Volume(
+    vol_arr,
+    f'sub-{s}',
+    'align_auto',
+    vmin=min_val,
+    vmax=max_val,
+    cmap=cmap,
+)
 
 '''
 Create and save the image
