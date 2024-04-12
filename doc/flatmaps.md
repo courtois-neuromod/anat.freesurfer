@@ -20,7 +20,8 @@ pip install -U setuptools wheel numpy cython
 # Install the latest release of pycortex from pip
 pip install -U pycortex
 ```
-Note: that, for my installation to work, I had to downgrade ``nibabel`` to version ``3.0``, and ``numpy`` to version ``1.23.4``
+
+Note that, for my installation to work, I had to downgrade ``nibabel`` to version ``3.0``, and ``numpy`` to version ``1.23.4``
 ```bash
 pip install -U nibabel==3.0
 pip install -U numpy==1.23.4
@@ -230,12 +231,12 @@ cmap = 'terrain' #'magma'
 Convert the volume to surface space usin the transformation from step 4
 '''
 surf_vol = cortex.Volume(
-  vol_arr,
-  f'sub-{s}',
-  'align_auto',
-  vmin=min_val,
-  vmax=max_val,
-  cmap=cmap,
+    vol_arr,
+    f'sub-{s}',
+    'align_auto',
+    vmin=min_val,
+    vmax=max_val,
+    cmap=cmap,
 )
 
 '''
@@ -280,12 +281,12 @@ vareas_arr[vareas_arr == 0] = np.nan
 Transform volume into surface
 '''
 vareas_vol = cortex.Volume(
-  vareas_arr,
-  f'sub-{s}',
-  'align_auto',
-  vmin=np.nanmin(vareas_arr),
-  vmax=np.nanmax(vareas_arr),
-  cmap='Retinotopy_RYBCR',
+    vareas_arr,
+    f'sub-{s}',
+    'align_auto',
+    vmin=np.nanmin(vareas_arr),
+    vmax=np.nanmax(vareas_arr),
+    cmap='Retinotopy_RYBCR',
 )
 
 '''
