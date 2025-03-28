@@ -1,2 +1,2 @@
 19ae685e-f23d-46c6-a987-405986312db5 include=* timestamp=1653403135.516375839s
-8669f64c-44ce-4f10-a921-79a02b3ce17f not metadata=distribution-restrictions=* and ( include=sub-0[135]/** or include=fsaverage/** ) and exclude=sub-0[246]/** timestamp=1689099567.338995772s
+8669f64c-44ce-4f10-a921-79a02b3ce17f not metadata=distribution-restrictions=* and include=sub-0[1235]/** and exclude=sub-0[46]/** timestamp=1743123422.33790406s
