@@ -2,6 +2,7 @@
 19ae685e-f23d-46c6-a987-405986312db5 s3unf.cneuromod.anat.freesurfer timestamp=1653399202.131845595s
 43f73f9e-a82c-4219-943b-1a79b827a128 ria-sequoia-storage timestamp=1666293856.992793681s
 44c5d85f-6562-4733-9837-a3f68debed0e basile@criugm0277:~/data/tests/cneuromod.procesed_conp_deploy/smriprep/sourcedata/freesurfer timestamp=1690050166.118256816s
+48cc5842-f25b-4db5-bb8f-1844f43c0651 bpinsard@elm.criugm.qc.ca:/scratch/tmp/conp_rel.processed/smriprep/sourcedata/freesurfer timestamp=1755878054s
 4c54af92-ca91-49ea-8851-e41483a0f250 bpinsard@bc12236.int.ets1.calculquebec.ca:/localscratch/bpinsard.32335147.0/smriprep_sub06.job/sourcedata/freesurfer timestamp=1666014156.183885858s
 52b321df-2fec-4a6c-af11-6cfb6f157e24 bpinsard@bc12236.int.ets1.calculquebec.ca:/localscratch/bpinsard.32335145.0/smriprep_sub05.job/sourcedata/freesurfer timestamp=1666014138.712502986s
 6301d5c2-21db-4e2b-b62a-9a0eced49759 bpinsard@beluga1.int.ets1.calculquebec.ca:/lustre03/project/6003287/datasets/cneuromod_processed/smriprep/sourcedata/freesurfer timestamp=1621601950.261487s
